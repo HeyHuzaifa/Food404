@@ -1,0 +1,433 @@
+/* Responsivness */
+
+
+@media (min-width: 584px) and (max-width: 630px) {
+    .getapp {}
+
+    /* .hamb svg{
+        transform: translate(20vh , 2vh);
+    } */
+
+    /* .btn {
+        transform: translateX(-3.6vw) translateY(7.2rem);
+        display: flex;
+        justify-content: end;
+    } */
+
+    /* .btn button {
+        width: 5rem;
+        height: 2rem;
+        font-size: 19px;
+    } */
+}
+
+@media (min-width: 630px) and (max-width: 700px) {
+    
+}
+
+@media (min-width: 280px) and (max-width: 420px) {
+    .hamb img {
+        transform: translate(-2vw, 15px);
+    }
+    
+    .header li a {
+        font-size: 10px;
+    }
+    
+    .text_01 {
+        font-size: 8vw;
+        margin-left: 3vw;
+        
+    }
+    
+    .searchbox {
+        transform: translateY(9rem) translateX(0vw);
+    }
+    
+    #navbar ::after {
+        top: 37vw;
+        height: 125%;
+    }
+    
+    .header li {
+        bottom: 5px;
+    }
+    
+    .searchbox img {
+        top: 6px;
+        left: 27px;
+    }
+    
+    .btn button {
+        width: 15vw;
+        font-size: 12px;
+        height: 2rem;
+    }
+    
+    .getapp {
+        transform: translate(16vw, 42vh);
+    }
+
+    .searchbox input {
+        width: 58vw;
+        font-size: 10px;
+        height: 8vw;
+    }
+    
+
+    /* Onclick hamburger Cross page */
+
+    .cross {
+        transform: translate(31vw, -20vh);
+        margin-right: 1rem;
+        width: 17vw;
+    }
+
+    .nav_items {
+        transform: translate(-6rem, 1rem);
+    }
+}
+
+@media (min-width: 420px) and (max-width:500px ) {
+    .btn {
+        transform: translateX(1rem) translateY(1vw);
+    }
+    #navbar ::after {
+        height: 100%;
+        top: 7rem;
+    }
+    
+    .text_01 {
+        font-size: 6vw;
+    }
+    
+    .searchbox {
+        transform: translateY(10rem) translateX(1rem);
+    }
+
+    .getapp {
+        transform: translate(0vw, 53vw);
+    }
+    
+    
+}
+@media (min-width: 420px) and (max-width: 583px) {
+    .searchbox {
+        display: flex;
+        transform: translateY(10rem) translateX(-2rem);
+    }
+    
+    .getapp {
+        display: flex;
+        justify-content: center;
+        transform: translate(0vw, 43vw);
+    }
+    
+    .btn {
+        /* transform: translateX(-3.6vw) translateY(8rem); */
+        display: flex;
+        justify-content: end;
+    }
+    
+    .text_01 {
+        font-size: 4vw;
+        transform: translate(-81vw, 6rem);
+        width: 73vw;
+    }
+}
+
+
+@media (max-width: 750px) {
+
+    .hamb {
+        display: flex;
+        justify-content: left;
+    }
+
+    #logo {
+        width: 8rem;
+        transform: translateY(1rem);
+    }
+
+    #navbar ::before {
+        height: 10%;
+        z-index: 0;
+    }
+
+    .header li {
+        bottom: 0px;
+        font-size: smaller;
+    }
+
+    .header li a {
+        margin: 0px;
+        padding: 6px;
+    }
+
+    /* .text_01 {
+        font-size: 1.5rem;
+        transform: translateY(6rem);
+        margin-left: 4rem;
+    } */
+
+    /* .searchbox {
+        display: inline;
+        position: absolute;
+        transform: translateY(9rem) translateX(1rem);
+    } */
+
+    .searchbox img {
+        width: 21px;
+        top: 6px;
+        left: 30px;
+        height: 19px;
+    }
+
+    /* .searchbox input {
+        width: 16rem;
+        height: 2rem;
+        margin-right: 0vw;
+        font-size: 14px;
+    } */
+/* 
+    .btn {
+        transform: translateX(19rem) translateY(7.9rem);
+        display: inline;
+    } */
+
+    /* .btn button {
+        width: 4rem;
+        height: 2rem;
+        font-size: 15px;
+    }
+
+    .getapp {
+        display: flex;
+        justify-content: center;
+        transform: translate(0vw, 29vh);
+    } */
+
+    #get {
+        width: 85px;
+        height: 3rem;
+    }
+
+    #play {
+        width: 61px;
+        height: 3rem;
+        margin-left: 9px;
+    }
+
+    #apple {
+        width: 60px;
+        height: 3rem;
+    }
+
+    /* #navbar ::after {
+        height: 70%;
+    } */
+
+    .top_hr {
+        width: 15.5rem;
+        transform: translateX(0rem) translateY(19rem);
+    }
+
+    .footer {
+        font-size: 1.5rem;
+    }
+
+    .text {
+        transform: translateY(-6rem);
+        top: 26rem;
+    }
+
+    #bottom_hr {
+        width: 15.5rem;
+        transform: translateX(0rem) translateY(21rem);
+    }
+
+    #img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9 {
+        transform: translateY(24rem);
+    }
+
+    .end {
+        transform: translateY(26rem);
+        height: 7rem;
+    }
+
+    .end span {
+        top: 2rem;
+        left: 1rem;
+        font-size: 10px;
+    }
+
+    .end h6 {
+        top: 4rem;
+        left: 1rem;
+        font-size: 12px;
+    }
+
+    .end h5 {
+        font-size: 16px;
+        transform: translateY(4rem) translateX(-1rem);
+    }
+}
+
+
+@media (min-height: 785px) and (max-width: 549px) {
+    #navbar ::after {
+        height: 50%;
+    }
+    
+    .btn {
+        transform: translateX(20rem) translateY(7.9rem);
+    }
+    
+    .getapp {
+        display: flex;
+        /* justify-content: center; */
+        transform: translate(0vw, 18vh);
+    }
+}
+
+@media (min-width: 630px) and (max-width: 700px) {
+    /* .btn {
+        transform: translateX(-3.6vw) translateY(8rem);
+        display: flex;
+        justify-content: end;
+    } */
+
+    .btn button {
+        width: 5rem;
+        height: 2rem;
+        font-size: 19px;
+    }
+
+    .hamb img {
+        transform: translate(25vw, 15px);
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+
+    .btn button {
+        width: 6rem;
+        height: 3rem;
+        font-size: 19px;
+    }
+
+    .searchbox input {
+        width: 17rem;
+        height: 2.5rem;
+        font-size: 14px;
+    }
+
+    .btn {
+        transform: translateX(-3.6vw) translateY(7.2rem);
+        display: flex;
+        justify-content: end;
+    }
+
+    footer {
+        transform: translateY(20vw);
+    }
+
+    .hamb img {
+        transform: translate(28vw, 15px);
+    }
+
+
+}
+
+@media (min-width: 750px) and (max-width: 1550px) {
+
+    #navbar ul {
+        /* display: none;
+        align-items: center;
+        transform: translate(-14rem, 0px); */
+    }
+
+    #navbar li {
+        display: flex;
+        margin: 15px;
+        padding: 0px;
+        position: relative;
+        font-size: 1rem;
+        top: 3vw;
+    }
+
+    #logo {
+        width: 160px;
+        left: -27px;
+        top: -14px;
+    }
+
+    .text_01 {
+        margin-left: 0rem;
+        font-size: 2rem;
+    }
+
+    .text-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    #navbar ::after {
+        top: 10rem;
+        width: 152%;
+    }
+
+    .header li {
+        bottom: 20px;
+    }
+
+    #bottom_hr {
+        width: 50rem;
+        transform: translateX(0rem) translateY(42rem);
+    }
+
+
+    /* Search Bar */
+
+    .searchbox {
+        display: inline;
+        position: absolute;
+        transform: translateY(9rem) translateX(3rem);
+    }
+
+    .searchbox img {
+        display: inline;
+        width: 30px;
+        top: 10px;
+        height: 30px;
+    }
+
+    .searchbox input {
+        width: 28rem;
+        height: 2rem;
+        margin-right: 6vw;
+        font-size: 14px;
+    }
+
+
+    .btn {
+        display: inline;
+    }
+
+    /* Get App Section */
+
+
+    .getapp {
+        transform: translate(0vw, 29vw);
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        transform: translateY(0vw);
+    }
+
+    .top_hr, #bottom_hr {
+        width: 23rem;
+    }
+}
